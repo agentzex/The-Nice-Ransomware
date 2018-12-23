@@ -1,2 +1,2 @@
 # The-Nice-Ransomware
-Ransomware PoC
+Please use this repo for educational purposes only!
