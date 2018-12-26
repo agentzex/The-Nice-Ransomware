@@ -1,3 +1,11 @@
+'''
+__author__ = "Dor Alt"
+__email__ = "agentzex@gmail.com"
+
+This program is part of the TheNiceRansomware project: https://github.com/dor-alt/The-Nice-Ransomware
+Please look there for more instructions.
+
+'''
 from flask import Flask, request, jsonify, make_response
 import socket
 import os

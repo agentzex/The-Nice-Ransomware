@@ -1,0 +1,1 @@
+#TheNiceRansomware CnC
