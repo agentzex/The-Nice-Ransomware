@@ -10,3 +10,5 @@ Notes:
 * Tested on Windows 10-64bit and Windows 7-32bit
 * Please use this code for good purposes only! I will not hold accountable for any misuse of this project
 * Please run this code on safe environments only (preferably on a VM with a snapshot you can revert back to)
+
+For more technical details about the development process and video demo - https://whiterosezex.blogspot.com/2018/12/the-nice-ransomware.html
