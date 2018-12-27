@@ -8,6 +8,7 @@
 #include "Lmcons.h"
 #include "MachineInfo.h"
 
+
 using namespace std;
 
 
@@ -16,3 +17,4 @@ bool sendRequestToDecrypt(wstring server_ip, DWORD server_port, string& returned
 string getPostData();
 bool writeUID(string uid);
 bool readUID(string &uid);
+void checkResponseStatus(string& response_status);
