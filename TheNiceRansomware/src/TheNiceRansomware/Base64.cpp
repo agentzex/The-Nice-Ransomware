@@ -105,3 +105,16 @@ std::vector<BYTE> Base64::decode(std::string encoded_string)
 
 	return ret;
 }
+
+bool Base64::isBase64(string s) {
+	for (int i=0; i < s.size(); i++) {
+		char c = s[i];
+		if (i + 1 == s.size()) 
+			//last char
+			if (!(isalnum(c) || (c == '+') || (c == '/') || (c == '=')))
+				return false;
+		if (!(isalnum(c) || (c == '+') || (c == '/')))
+			return false;
+	}
+	return true;
+}
