@@ -1,7 +1,7 @@
 # The-Nice-Ransomware
 Please use this repo for educational purposes only!
 
-This is a PoC made to mimic a ransomware running on Windows platforms, communicating with a python CnC server which will generate a unique AES key to encrypt a system files, and save this key with a unique id to later decryption (keys will be found in a file called "victims.json" on the server directory).
+This is a PoC made to mimic a ransomware running on Windows platforms, communicating with a python CnC server which will generate a unique AES key to encrypt files with chosen file extensions, and save this key with a unique id for later decryption (keys will be found in a file called "victims.json" on the server's directory).
 
 Notes:
 * The agent will search the entire path given (including subdirectories) and will encrypt each file that his extensions is included in the "file_types" vector variable.
